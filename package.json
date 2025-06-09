@@ -1,0 +1,29 @@
+{
+  "name": "auth-s3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-useragent": "^1.0.15",
+    "geoip-lite": "^1.4.10",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
